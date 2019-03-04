@@ -1,2 +1,2 @@
-# GIPHY-Tastic
-Take two, forgot a readme when creating first. 
+# GIPHY
+Just giphing around for the homework. 
