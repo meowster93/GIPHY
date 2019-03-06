@@ -4,7 +4,8 @@ body {
     position: relative;
     z-index: 1;
     font-size: auto;
-    color: black 
+    color: black;
+    background: url("../images/background.jpg");
 }
 
 #giphyTitle {
@@ -32,4 +33,16 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     
+}
+
+.container {
+    margin: 5%;
+    align-content: center;
+}
+
+#gifArea {
+    background: black;
+    height: auto;
+    width: auto;
+    color: white;
 }

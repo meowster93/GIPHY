@@ -14,24 +14,45 @@
 
 <body>
     <div id="giphyTitle">
-            <h1>Television Entertainment</h1>
-        </div>
-        <form>
-            <div id="searchBar" class="form-group">
-                <label for="exampleInputEmail1">Search</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="">
-                <small id="emailHelp" class="form-text text-muted">Search for anime gifs!</small>
-            </div>
-            <button id="submit" type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <div class="main-container">
-        <div id="buttons"></div>
-
+        <h1>Anime</h1>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <form>
+        <div id="searchBar" class="form-group">
+            <label for="exampleInputEmail1">Search</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+            <small id="emailHelp" class="form-text text-muted">Search for anime gifs!</small>
+        </div>
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <div class="row">
+        <div class="container">
+            <button class="btn btn-primary" id="show" data-search="One Punch Man">One Punch Man</button>
+            <button class="btn btn-primary" id="show" data-search="One Piece">One Piece</button>
+            <button class="btn btn-primary" id="show" data-search="Dragon Ball Super">Dragon Ball Super</button>
+            <button class="btn btn-primary" id="show" data-search="Sailor Moon">Sailor Moon</button>
+            <button class="btn btn-primary" id="show" data-search="Code Geass">Code Geass</button>
+            <button class="btn btn-primary" id="show" data-search="Steins;Gate">Steins;Gate</button>
+            <button class="btn btn-primary" id="show" data-search="Erased">Erased</button>
+            <button class="btn btn-primary" id="show" data-search="Black Butler">Black Butler</button>
+            <button class="btn btn-primary" id="show" data-search="Naruto">Naruto</button>
+            <button class="btn btn-primary" id="show" data-search="Soul Eater">Soul Eater</button>
+            <div id="myButtons"></div>
+        </div>
+        <!--end of container-->
+    </div>
+    <!--end of row-->
+    <div class="row">
+        <div class="container">
+            <span>
+                <div id="gifArea"></div>
+            </span>
+        </div>
+        <!--end of container-->
+    </div>
+    <!--end of row-->
+
+    <script src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"
+        integrity="sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
