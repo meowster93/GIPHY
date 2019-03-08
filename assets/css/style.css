@@ -1,12 +1,15 @@
 body {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
-    height: auto;
-    position: relative;
-    z-index: 1;
     font-size: auto;
     color: black;
-    background: url("../images/background.jpg");
+    background: url("../images/background.jpg"), url("../images/manga-storyboard.jpg");
     background-size: cover;
+    background-repeat: no-repeat, repeat;
+    background-position: center top, center bottom;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
 }
 
 #giphyTitle {
