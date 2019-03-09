@@ -54,7 +54,9 @@ body {
     height: auto;
     width: auto;
     color: white;
-    display: flexbox;
+    display: -ms-flexbox;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #instructions {
@@ -66,3 +68,4 @@ body {
     margin-left: 25%;
     margin-right: 25%;
 }
+ 
