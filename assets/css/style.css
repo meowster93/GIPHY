@@ -3,7 +3,7 @@ body {
     font-size: auto;
     color: black;
     background: url("../images/background.jpg"), url("../images/manga-storyboard.jpg");
-    background-size: cover;
+    background-size: inherit;
     background-repeat: no-repeat, repeat;
     background-position: center top, center bottom;
     height: 100%;
@@ -12,7 +12,7 @@ body {
     z-index: 1;
 }
 
-#giphyTitle {
+#giphyTitle { 
     background: url("../images/static-tv.jpg");
     background-size: contain;
     background-size: 255px;
@@ -22,11 +22,12 @@ body {
     text-align: inherit;
     color: orangered;
     font-weight: bolder;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-left: 1.5%;
     margin-top: 1.5%;
     height: auto;
     width: auto; 
+
 }
 
 #searchBar {
@@ -49,9 +50,19 @@ body {
 }
 
 #gifArea {
-    background: black;
+    background: rgba(0, 0, 0, 0.479);
     height: auto;
     width: auto;
     color: white;
+    display: flexbox;
 }
 
+#instructions {
+    background: rgba(0, 0, 0, 0.308);
+    color: white;
+    height: auto;
+    width: auto;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}

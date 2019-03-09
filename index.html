@@ -10,32 +10,51 @@
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
     <div id="giphyTitle">
-        <h1>Anime</h1>
+        <h1>Anime Gifs</h1>
     </div>
     <form>
         <div id="searchBar" class="form-group">
             <label for="exampleInputEmail1" style="color:white;">Search</label>
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-            <small id="emailHelp" style="background-color:rgba(0, 0, 0, 0.295); color:rgba(255, 255, 255, 0.418);">Will grant anime gifs as you wish.</small>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="anime gifs for days">
+            <small id="emailHelp" style="background-color:rgba(0, 0, 0, 0.295); color:rgba(255, 255, 255, 0.418);">Will
+                grant anime gifs as you wish.</small>
         </div>
-        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+        <button id="submit" type="submit" class="btn btn-primary"
+            style="background:orangered; border:orangered;">Submit</button>
     </form>
+    <div id="instructions">
+        <p>Select any of the buttons below and anime gifs will appear, use the search bar to create your own button
+            to make a new button.(still in progress to getting gifs and buttons to work)</p>
+    </div><!--end of instructions div-->
     <div class="row">
         <div class="container">
-            <button class="btn btn-primary" id="show" data-search="One Punch Man">One Punch Man</button>
-            <button class="btn btn-primary" id="show" data-search="One Piece">One Piece</button>
-            <button class="btn btn-primary" id="show" data-search="Dragon Ball Super">Dragon Ball Super</button>
-            <button class="btn btn-primary" id="show" data-search="Sailor Moon">Sailor Moon</button>
-            <button class="btn btn-primary" id="show" data-search="Code Geass">Code Geass</button>
-            <button class="btn btn-primary" id="show" data-search="Steins;Gate">Steins;Gate</button>
-            <button class="btn btn-primary" id="show" data-search="Erased">Erased</button>
-            <button class="btn btn-primary" id="show" data-search="Black Butler">Black Butler</button>
-            <button class="btn btn-primary" id="show" data-search="Naruto">Naruto</button>
-            <button class="btn btn-primary" id="show" data-search="Soul Eater">Soul Eater</button>
+            <button class="btn btn-primary" id="OnePunchMan" data-search="One Punch Man"
+                style="background:orangered; border:orangered;">One Punch Man</button>
+            <button class="btn btn-primary" id="OnePiece" data-search="One Piece"
+                style="background:orangered; border:orangered;">One Piece</button>
+            <button class="btn btn-primary" id="DragonBallSuper" data-search="Dragon Ball Super"
+                style="background:orangered; border:orangered;">Dragon Ball
+                Super</button>
+            <button class="btn btn-primary" id="SailorMoon" data-search="Sailor Moon"
+                style="background:orangered; border:orangered;">Sailor Moon</button>
+            <button class="btn btn-primary" id="CodeGeass" data-search="Code:Geass"
+                style="background:orangered; border:orangered;">Code:Geass</button>
+            <button class="btn btn-primary" id="Steins;Gate" data-search="Steins;Gate"
+                style="background:orangered; border:orangered;">Steins;Gate</button>
+            <button class="btn btn-primary" id="Erased" data-search="Erased"
+                style="background:orangered; border:orangered;">Erased</button>
+            <button class="btn btn-primary" id="BlackButler" data-search="Black Butler"
+                style="background:orangered; border:orangered;">Black Butler</button>
+            <button class="btn btn-primary" id="Naruto" data-search="Naruto"
+                style="background:orangered; border:orangered;">Naruto</button>
+            <button class="btn btn-primary" id="SoulEater" data-search="Soul Eater"
+                style="background:orangered; border:orangered;">Soul Eater</button>
             <div id="myButtons"></div>
         </div>
         <!--end of container-->
@@ -44,25 +63,24 @@
     <div class="row">
         <div class="container">
             <span>
-                <div id="gifArea"></div>
+                <div id="gifArea">
+                    <p></p>
+                </div>
             </span>
         </div>
         <!--end of container-->
     </div>
     <!--end of row-->
 
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
     <script src="assets/javascript/app.js"></script>
-    
+
 </body>
 
 </html>
